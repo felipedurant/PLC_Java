@@ -1,0 +1,15 @@
+# Execução 1 (Felipe)
+Testando multiplicaç?o de matrizes: (50x50, 50x100)
+Tempo com threads diretas: 37ms
+Tempo com threads diretas: 37ms
+Tempo com threads diretas: 37ms
+Tempo com executor: 26ms
+
+Testando multiplicaç?o de matrizes: (2000x1000, 1000x4000)
+Tempo com threads diretas: 113842ms
+Tempo com executor: 118206ms
+
+Testando multiplicaç?o de matrizes: (4000x2000, 2000x8000)
+Tempo com threads diretas: 1163332ms
+Tempo com executor: 1013786ms
+
