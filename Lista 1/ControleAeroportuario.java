@@ -1,7 +1,6 @@
 import java.util.*;
-
 public class ControleAeroportuario {
-    static int pistasDisponiveis;
+    static int pistasDisponiveis, qte;
     static long tempoInicio;
     static List<Aviao> avioes = new ArrayList<>();
     static PriorityQueue<Aviao> filaEspera = new PriorityQueue<>(Comparator.comparingLong(Aviao::getHorario));
@@ -11,7 +10,7 @@ public class ControleAeroportuario {
         Scanner input = new Scanner(System.in);
         
         System.out.print("Digite a quantidade de avioes esperando para sair\n>>> ");
-        int qte = input.nextInt();
+        qte = input.nextInt();
         for (int i= 0; i < qte; i++) {
             System.out.print("Digite o horario de saida em milissegundos do " + (i+1) + "o aviao\n>>> ");
             avioes.add(new Aviao(input.nextLong(), i+1, "Saida"));
@@ -32,7 +31,7 @@ public class ControleAeroportuario {
 
         tempoInicio = System.currentTimeMillis();
         avioes.forEach(Thread::start);
-        System.out.print("########### RELATORIO ###########\n");
+        System.out.print("############## RELATORIO ################\n");
     }
 
     static class Aviao extends Thread {
@@ -42,9 +41,13 @@ public class ControleAeroportuario {
         int tempoOcupacao = 500;
         
         public Aviao(long horario, int numero, String tipo){
+            if(tipo == "Chegada"){
+                this.numero = numero + qte;
+            }else{
+                this.numero = numero;
+            }
             this.tipo = tipo;
             this.horario = horario;
-            this.numero = numero;
         }
 
         public long getHorario(){
