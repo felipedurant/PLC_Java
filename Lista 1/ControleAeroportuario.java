@@ -1,6 +1,6 @@
 import java.util.*;
 public class ControleAeroportuario {
-    static int pistasDisponiveis, qte;
+    static int pistasDisponiveis;
     static long tempoInicio;
     static List<Aviao> avioes = new ArrayList<>();
     static PriorityQueue<Aviao> filaEspera = new PriorityQueue<>(Comparator.comparingLong(Aviao::getHorario));
@@ -10,17 +10,17 @@ public class ControleAeroportuario {
         Scanner input = new Scanner(System.in);
         
         System.out.print("Digite a quantidade de avioes esperando para sair\n>>> ");
-        qte = input.nextInt();
+        int qte = input.nextInt();
         for (int i= 0; i < qte; i++) {
             System.out.print("Digite o horario de saida em milissegundos do " + (i+1) + "o aviao\n>>> ");
             avioes.add(new Aviao(input.nextLong(), i+1, "Saida"));
         }
 
         System.out.print("Digite a quantidade de avioes que irao chegar\n>>> ");
-        qte = input.nextInt();
-        for (int i= 0; i < qte; i++) {
+        int qte2 = input.nextInt();
+        for (int i= 0; i < qte2; i++) {
             System.out.print("Digite o horario esperado de chegada em milissegundos do " + (i+1) + "o aviao\n>>> ");
-            avioes.add(new Aviao(input.nextLong(), i+1, "Chegada"));
+            avioes.add(new Aviao(input.nextLong(), i+1+qte, "Chegada"));
             
         }
 
@@ -41,11 +41,7 @@ public class ControleAeroportuario {
         int tempoOcupacao = 500;
         
         public Aviao(long horario, int numero, String tipo){
-            if(tipo == "Chegada"){
-                this.numero = numero + qte;
-            }else{
-                this.numero = numero;
-            }
+            this.numero = numero;
             this.tipo = tipo;
             this.horario = horario;
         }
