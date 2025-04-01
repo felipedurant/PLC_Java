@@ -13,3 +13,16 @@ Testando multiplicaç?o de matrizes: (4000x2000, 2000x8000)
 Tempo com threads diretas: 1163332ms
 Tempo com executor: 1013786ms
 
+#Execução 2 (Felipe)
+
+Testando multiplicaç?o de matrizes: (50x50, 50x100)
+Tempo com threads diretas: 31ms
+Tempo com executor: 21ms
+
+Testando multiplicaç?o de matrizes: (2000x1000, 1000x4000)
+Tempo com threads diretas: 93024ms
+Tempo com executor: 92843ms
+
+Testando multiplicaç?o de matrizes: (4000x2000, 2000x8000)
+Tempo com threads diretas: 887495ms
+Tempo com executor: 815623ms
