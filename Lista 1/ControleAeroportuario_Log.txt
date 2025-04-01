@@ -1,0 +1,428 @@
+1) Primeiro caso teste
+Input:
+4
+1500
+1750
+1430
+3000
+3
+1000
+2000
+3000
+2
+
+Output:
+############## RELATORIO ################
+-----------------------------------------
+ID: CHEGADA AVIAO 5
+HORARIO ESPERADO: 1000ms
+HORARIO REAL: 1001ms
+DELAY: 1ms
+-----------------------------------------
+ID: SAIDA AVIAO 3
+HORARIO ESPERADO: 1430ms
+HORARIO REAL: 1431ms
+DELAY: 1ms
+-----------------------------------------
+ID: SAIDA AVIAO 1
+HORARIO ESPERADO: 1500ms
+HORARIO REAL: 1527ms
+DELAY: 27ms
+-----------------------------------------
+ID: SAIDA AVIAO 2
+HORARIO ESPERADO: 1750ms
+HORARIO REAL: 1932ms
+DELAY: 182ms
+-----------------------------------------
+ID: CHEGADA AVIAO 6
+HORARIO ESPERADO: 2000ms
+HORARIO REAL: 2029ms
+DELAY: 29ms
+-----------------------------------------
+ID: SAIDA AVIAO 4
+HORARIO ESPERADO: 3000ms
+HORARIO REAL: 3001ms
+DELAY: 1ms
+-----------------------------------------
+ID: CHEGADA AVIAO 7
+HORARIO ESPERADO: 3000ms
+HORARIO REAL: 3001ms
+DELAY: 1ms
+
+2) Segundo caso teste
+Input: 
+20
+1200
+3000
+500
+2500
+1800
+6000
+1100
+700
+3200
+1500
+4000
+900
+3500
+2000
+4500
+1300
+800
+2700
+2900
+1000
+20
+400
+2200
+800
+3600
+1500
+500
+3000
+1900
+2600
+1200
+3100
+700
+4200
+900
+2500
+1400
+100
+2800
+2300
+1700
+3
+
+Output:
+############## RELATORIO ################
+-----------------------------------------
+ID: CHEGADA AVIAO 37
+HORARIO ESPERADO: 100ms
+HORARIO REAL: 100ms
+DELAY: 0ms
+-----------------------------------------
+ID: CHEGADA AVIAO 21
+HORARIO ESPERADO: 400ms
+HORARIO REAL: 401ms
+DELAY: 1ms
+-----------------------------------------
+ID: SAIDA AVIAO 3
+HORARIO ESPERADO: 500ms
+HORARIO REAL: 500ms
+DELAY: 0ms
+-----------------------------------------
+ID: CHEGADA AVIAO 26
+HORARIO ESPERADO: 500ms
+HORARIO REAL: 626ms
+DELAY: 126ms
+-----------------------------------------
+ID: CHEGADA AVIAO 32
+HORARIO ESPERADO: 700ms
+HORARIO REAL: 902ms
+DELAY: 202ms
+-----------------------------------------
+ID: SAIDA AVIAO 8
+HORARIO ESPERADO: 700ms
+HORARIO REAL: 1001ms
+DELAY: 301ms
+-----------------------------------------
+ID: SAIDA AVIAO 17
+HORARIO ESPERADO: 800ms
+HORARIO REAL: 1127ms
+DELAY: 327ms
+-----------------------------------------
+ID: CHEGADA AVIAO 23
+HORARIO ESPERADO: 800ms
+HORARIO REAL: 1404ms
+DELAY: 604ms
+-----------------------------------------
+ID: CHEGADA AVIAO 34
+HORARIO ESPERADO: 900ms
+HORARIO REAL: 1503ms
+DELAY: 603ms
+-----------------------------------------
+ID: SAIDA AVIAO 12
+HORARIO ESPERADO: 900ms
+HORARIO REAL: 1629ms
+DELAY: 729ms
+-----------------------------------------
+ID: SAIDA AVIAO 20
+HORARIO ESPERADO: 1000ms
+HORARIO REAL: 1905ms
+DELAY: 905ms
+-----------------------------------------
+ID: SAIDA AVIAO 7
+HORARIO ESPERADO: 1100ms
+HORARIO REAL: 2004ms
+DELAY: 904ms
+-----------------------------------------
+ID: CHEGADA AVIAO 30
+HORARIO ESPERADO: 1200ms
+HORARIO REAL: 2130ms
+DELAY: 930ms
+-----------------------------------------
+ID: SAIDA AVIAO 1
+HORARIO ESPERADO: 1200ms
+HORARIO REAL: 2406ms
+DELAY: 1206ms
+-----------------------------------------
+ID: SAIDA AVIAO 16
+HORARIO ESPERADO: 1300ms
+HORARIO REAL: 2506ms
+DELAY: 1206ms
+-----------------------------------------
+ID: CHEGADA AVIAO 36
+HORARIO ESPERADO: 1400ms
+HORARIO REAL: 2632ms
+DELAY: 1232ms
+-----------------------------------------
+ID: SAIDA AVIAO 10
+HORARIO ESPERADO: 1500ms
+HORARIO REAL: 2908ms
+DELAY: 1408ms
+-----------------------------------------
+ID: CHEGADA AVIAO 25
+HORARIO ESPERADO: 1500ms
+HORARIO REAL: 3007ms
+DELAY: 1507ms
+-----------------------------------------
+ID: CHEGADA AVIAO 40
+HORARIO ESPERADO: 1700ms
+HORARIO REAL: 3133ms
+DELAY: 1433ms
+-----------------------------------------
+ID: SAIDA AVIAO 5
+HORARIO ESPERADO: 1800ms
+HORARIO REAL: 3409ms
+DELAY: 1609ms
+-----------------------------------------
+ID: CHEGADA AVIAO 28
+HORARIO ESPERADO: 1900ms
+HORARIO REAL: 3510ms
+DELAY: 1610ms
+-----------------------------------------
+ID: SAIDA AVIAO 14
+HORARIO ESPERADO: 2000ms
+HORARIO REAL: 3635ms
+DELAY: 1635ms
+-----------------------------------------
+ID: CHEGADA AVIAO 22
+HORARIO ESPERADO: 2200ms
+HORARIO REAL: 3911ms
+DELAY: 1711ms
+-----------------------------------------
+ID: CHEGADA AVIAO 39
+HORARIO ESPERADO: 2300ms
+HORARIO REAL: 4011ms
+DELAY: 1711ms
+-----------------------------------------
+ID: CHEGADA AVIAO 35
+HORARIO ESPERADO: 2500ms
+HORARIO REAL: 4136ms
+DELAY: 1636ms
+-----------------------------------------
+ID: SAIDA AVIAO 4
+HORARIO ESPERADO: 2500ms
+HORARIO REAL: 4413ms
+DELAY: 1913ms
+-----------------------------------------
+ID: CHEGADA AVIAO 29
+HORARIO ESPERADO: 2600ms
+HORARIO REAL: 4512ms
+DELAY: 1912ms
+-----------------------------------------
+ID: SAIDA AVIAO 18
+HORARIO ESPERADO: 2700ms
+HORARIO REAL: 4638ms
+DELAY: 1938ms
+-----------------------------------------
+ID: CHEGADA AVIAO 38
+HORARIO ESPERADO: 2800ms
+HORARIO REAL: 4915ms
+DELAY: 2115ms
+-----------------------------------------
+ID: SAIDA AVIAO 19
+HORARIO ESPERADO: 2900ms
+HORARIO REAL: 5014ms
+DELAY: 2114ms
+-----------------------------------------
+ID: CHEGADA AVIAO 27
+HORARIO ESPERADO: 3000ms
+HORARIO REAL: 5139ms
+DELAY: 2139ms
+-----------------------------------------
+ID: SAIDA AVIAO 2
+HORARIO ESPERADO: 3000ms
+HORARIO REAL: 5416ms
+DELAY: 2416ms
+-----------------------------------------
+ID: CHEGADA AVIAO 31
+HORARIO ESPERADO: 3100ms
+HORARIO REAL: 5515ms
+DELAY: 2415ms
+-----------------------------------------
+ID: SAIDA AVIAO 9
+HORARIO ESPERADO: 3200ms
+HORARIO REAL: 5641ms
+DELAY: 2441ms
+-----------------------------------------
+ID: SAIDA AVIAO 13
+HORARIO ESPERADO: 3500ms
+HORARIO REAL: 5917ms
+DELAY: 2417ms
+-----------------------------------------
+ID: CHEGADA AVIAO 24
+HORARIO ESPERADO: 3600ms
+HORARIO REAL: 6016ms
+DELAY: 2416ms
+-----------------------------------------
+ID: SAIDA AVIAO 11
+HORARIO ESPERADO: 4000ms
+HORARIO REAL: 6143ms
+DELAY: 2143ms
+-----------------------------------------
+ID: CHEGADA AVIAO 33
+HORARIO ESPERADO: 4200ms
+HORARIO REAL: 6419ms
+DELAY: 2219ms
+-----------------------------------------
+ID: SAIDA AVIAO 15
+HORARIO ESPERADO: 4500ms
+HORARIO REAL: 6516ms
+DELAY: 2016ms
+-----------------------------------------
+ID: SAIDA AVIAO 6
+HORARIO ESPERADO: 6000ms
+HORARIO REAL: 6656ms
+DELAY: 656ms
+
+3) Terceiro caso teste
+Input: 
+10
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+10
+50
+150
+250
+350
+450
+550
+650
+750
+850
+950
+4
+
+Output:
+############## RELATORIO ################
+-----------------------------------------
+ID: SAIDA AVIAO 1
+HORARIO ESPERADO: 0ms
+HORARIO REAL: 1ms
+DELAY: 1ms
+-----------------------------------------
+ID: CHEGADA AVIAO 11
+HORARIO ESPERADO: 50ms
+HORARIO REAL: 51ms
+DELAY: 1ms
+-----------------------------------------
+ID: SAIDA AVIAO 2
+HORARIO ESPERADO: 100ms
+HORARIO REAL: 101ms
+DELAY: 1ms
+-----------------------------------------
+ID: CHEGADA AVIAO 12
+HORARIO ESPERADO: 150ms
+HORARIO REAL: 150ms
+DELAY: 0ms
+-----------------------------------------
+ID: SAIDA AVIAO 3
+HORARIO ESPERADO: 200ms
+HORARIO REAL: 529ms
+DELAY: 329ms
+-----------------------------------------
+ID: CHEGADA AVIAO 13
+HORARIO ESPERADO: 250ms
+HORARIO REAL: 552ms
+DELAY: 302ms
+-----------------------------------------
+ID: SAIDA AVIAO 4
+HORARIO ESPERADO: 300ms
+HORARIO REAL: 602ms
+DELAY: 302ms
+-----------------------------------------
+ID: CHEGADA AVIAO 14
+HORARIO ESPERADO: 350ms
+HORARIO REAL: 652ms
+DELAY: 302ms
+-----------------------------------------
+ID: SAIDA AVIAO 5
+HORARIO ESPERADO: 400ms
+HORARIO REAL: 1031ms
+DELAY: 631ms
+-----------------------------------------
+ID: CHEGADA AVIAO 15
+HORARIO ESPERADO: 450ms
+HORARIO REAL: 1053ms
+DELAY: 603ms
+-----------------------------------------
+ID: SAIDA AVIAO 6
+HORARIO ESPERADO: 500ms
+HORARIO REAL: 1105ms
+DELAY: 605ms
+-----------------------------------------
+ID: CHEGADA AVIAO 16
+HORARIO ESPERADO: 550ms
+HORARIO REAL: 1153ms
+DELAY: 603ms
+-----------------------------------------
+ID: SAIDA AVIAO 7
+HORARIO ESPERADO: 600ms
+HORARIO REAL: 1542ms
+DELAY: 942ms
+-----------------------------------------
+ID: CHEGADA AVIAO 17
+HORARIO ESPERADO: 650ms
+HORARIO REAL: 1558ms
+DELAY: 908ms
+-----------------------------------------
+ID: SAIDA AVIAO 8
+HORARIO ESPERADO: 700ms
+HORARIO REAL: 1621ms
+DELAY: 921ms
+-----------------------------------------
+ID: CHEGADA AVIAO 18
+HORARIO ESPERADO: 750ms
+HORARIO REAL: 1666ms
+DELAY: 916ms
+-----------------------------------------
+ID: SAIDA AVIAO 9
+HORARIO ESPERADO: 800ms
+HORARIO REAL: 2054ms
+DELAY: 1254ms
+-----------------------------------------
+ID: CHEGADA AVIAO 19
+HORARIO ESPERADO: 850ms
+HORARIO REAL: 2070ms
+DELAY: 1220ms
+-----------------------------------------
+ID: SAIDA AVIAO 10
+HORARIO ESPERADO: 900ms
+HORARIO REAL: 2132ms
+DELAY: 1232ms
+-----------------------------------------
+ID: CHEGADA AVIAO 20
+HORARIO ESPERADO: 950ms
+HORARIO REAL: 2178ms
+DELAY: 1228ms
