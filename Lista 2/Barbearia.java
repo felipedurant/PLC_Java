@@ -70,12 +70,8 @@ public class Barbearia {
         }
 
         public void dormir() throws InterruptedException {
-            if(dormindo){
-                System.out.println(tempo() + " - (DORMINDO) zZzZzZzZzZzZzZzZzZzZzZ");
-            }else{
-                Thread.sleep(ThreadLocalRandom.current().nextInt(1, 4));
-                System.out.println(tempo() + " - (INDO DORMIR) zZzZzZzZzZzZzZzZzZzZzZ");
-            }
+            System.out.println(tempo() + " - (DORMINDO) zZzZzZzZzZzZzZzZzZzZzZ");
+            Thread.sleep(ThreadLocalRandom.current().nextInt(1, 3));
         }
     }
 
